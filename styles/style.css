@@ -1,8 +1,124 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
+                    @import url(./Questrial/Questrial-Regular.ttf);
+                    html,
+                    body {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    body {
+                        font-family: "Questrial";
+                        font-size: 12px;
+                        line-height: 3.5em;
+                        font-weight: 300;
+                    }
+                    
+                    h1,
+                    h2,
+                    h3,
+                    h4,
+                    h5,
+                    h6 {
+                        font-family: "Questrial"
+                    }
+                    
+                    h1 {
+                        font-size: 4em;
+                        text-align: center;
+                        text-transform: uppercase;
+                    }
+                    
+                    h2 {
+                        font-size: 3em;
+                        text-align: center;
+                    }
+                    
+                    h3 {
+                        font-size: 2em;
+                        font-weight: 200;
+                        text-align: center;
+                        line-height: 1em;
+                    }
+                    
+                    h4 {
+                        font-size: 1.5em;
+                        font-weight: 200;
+                        text-align: center;
+                        line-height: 1em;
+                    }
+                    
+                    .nav {
+                        display: flex;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        justify-content: space-between;
+                    }
+                    
+                    .logospotify {
+                        height: 35px;
+                        width: 35px;
+                        display: flex;
+                        position: fixed;
+                    }
+                    
+                    .nav-bar {
+                        display: flex;
+                        justify-content: flex-end;
+                        margin-top: 60px;
+                    }
+                    
+                    .nav-bar-list {
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: flex-end;
+                        list-style-type: none;
+                    }
+                    
+                    .nav-bar-item {}
+                    
+                    .header {
+                        background-image: url("../images/landing.jpg");
+                        text-align: center;
+                        color: white;
+                        border-bottom-color: gray, solid;
+                        background-position: 0 0;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        height: 450px;
+                        padding-top: 20px;
+                        position: relative;
+                    }
+                    
+                    .landing {
+                        height: 400px;
+                        margin-top: -150px;
+                    }
+                    
+                    .about {
+                        text-align: center;
+                        display: flex;
+                        flex-direction: row;
+                        margin-top: 20px;
+                        justify-content: space-between;
+                    }
+                    
+                    .icon {
+                        padding: 20 px;
+                        height: 10 px;
+                        width: 10 px;
+                    }
+                    
+                    .whitebox {
+                        margin: 0;
+                        padding: 20px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                    }
+                    
+                    #action {}
+                    
+                    .greenbackground {}
+                    
+                    .actionlist {}
+                    
+                    Colors: Text: 1A1A1A Green: #00B172 White: #FFF */
